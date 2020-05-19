@@ -1,0 +1,33 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <img src="assets/img/user.png" alt="{{ currentUserAvatar }}" class="my-3" />
+        <div class="header">
+            <h5>{{currentUserName}}</h5>
+            <h6>hr.{{currentUserName}}@vhr.com</h6>
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon>dvr</mat-icon>Dashboard
+    </a>
+    <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/home/posts">
+      <mat-icon>notifications</mat-icon>Posts
+    </a> -->
+
+
+    <!-- <mat-divider></mat-divider> -->
+
+    <!-- <h2 matSubheader>Tools</h2>
+  
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+      <mat-icon>import_contacts</mat-icon>
+      Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+      <mat-icon>contact_phone</mat-icon>
+      Leads
+    </a> -->
+</mat-nav-list>
